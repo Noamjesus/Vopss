@@ -1,0 +1,51 @@
+﻿@page
+@model Vopss.Pages.regisssModel
+@{
+}
+
+<link href="~/css/registro.css" rel="stylesheet" />
+
+<div class="header">
+    <li>
+        <button class="back-button">
+            <a href="/Index" class="back-button">Regresar</a>
+
+
+
+    
+    </div>
+    <br><br>
+    <div class="container">
+        <h1>Registrate</h1>
+        <form>
+            <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="username">Nombre de usuario</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="cardNumber">Número de tarjeta</label>
+                <input type="text" id="cardNumber" name="cardNumber" required>
+            </div>
+            <div class="form-group">
+                <label for="expirationDate">Fecha de vencimiento</label>
+                <input type="text" id="expirationDate" name="expirationDate" required>
+            </div>
+            <div class="form-group">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" required>
+            </div>
+            <div class="form-group">
+                <label for="cardName">Nombre de tarjeta</label>
+                <input type="text" id="cardName" name="cardName" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Contraseña del correo</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Aceptar</button>
+        </form>
+    </div>

@@ -1,0 +1,51 @@
+﻿@page
+@model Vopss.Pages.CategoriasModel
+@{
+}
+
+<link href="~/css/categorias.css" rel="stylesheet" />
+<body>
+
+<title>Categorías de Películas</title>
+
+<a asp-page="/Index" class="btn btn-formulario bt-2">Regresar  <span></span></a>
+
+
+<div class="container">
+    <h1>Categorias</h1>
+    <br><br>
+    <div class="categories">
+        <a href="/terror" class="category"> 
+            <div class="image-container">
+                <img src="/img/cuarentena-2-terminal.jpg" alt="Terror">
+            </div>
+            <p>Terror</p>
+        </a>
+        <a href="/Accion" class="category">
+            <div class="image-container">
+                <img src="/img/Accion 24.jpg" alt="Acción">
+            </div>
+            <p>Acción</p>
+        </a>
+        <a href="/Animacion" class="category">
+            <div class="image-container">
+                <img src="/img/animaccion 25.jpg" alt="Animación">
+            </div>
+            <p>Animación</p>
+        </a>
+        <a href="/Romance" class="category">
+            <div class="image-container">
+                <img src="/img/toda-una-vida-en-un-ano-2.jpg" alt="Romance">
+            </div>
+            <p>Romance</p>
+        </a>
+        <a href="/Ciencia" class="category">
+            <div class="image-container">
+                <img src="/img/ready-player-one.jpg" alt="Ciencia Ficción">
+            </div>
+            <p>Ciencia ficción</p>
+        </a>
+    </div>
+</div>
+
+</body>
