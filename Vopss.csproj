@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Pages\NewFolder\**" />
+    <Compile Remove="wwwroot\NewFolder1\**" />
+    <Content Remove="Pages\NewFolder\**" />
+    <Content Remove="wwwroot\NewFolder1\**" />
+    <EmbeddedResource Remove="Pages\NewFolder\**" />
+    <EmbeddedResource Remove="wwwroot\NewFolder1\**" />
+    <None Remove="Pages\NewFolder\**" />
+    <None Remove="wwwroot\NewFolder1\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Pages\registro.cshtml.cs" />
+    <Compile Remove="Pages\Shared\registro.cshtml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Pages\registro.cshtml" />
+    <Content Remove="Pages\Shared\registro.cshtml" />
+    <Content Remove="wwwroot\inicio.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Pages\regristrace.html" />
+  </ItemGroup>
+
+</Project>

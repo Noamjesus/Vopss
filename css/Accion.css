@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background:linear-gradient(150deg,#000000,#0a083e,#09093a,#000000);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+  }
+  header{
+background-color: #000;
+padding: 15px;
+
+
+
+  }
+ 
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 40px;
+    justify-items: center;
+    
+    margin: 0 auto;
+  }
+  
+  .gallery a {
+    display: inline-block;
+    color: #000;
+  }
+  
+  .gallery img {
+    max-width: 85%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.1);
+  }
+  h1{
+
+color: aliceblue;
+font-size: 40px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+ 
+  
+  
+
+.contenedor{
+    
+    display: flex;
+    flex-wrap: wrap;
+
+    
+    
+    }
+  .btn{
+   
+    padding: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    letter-spacing: 10px;
+    transition: all 0.6s ease;
+    border-radius: 60px;
+    
+    }
+    
+    .btn-2{
+    border: 3px rgb(255, 255, 255);
+    
+    }
+    .btn:hover{
+    background-color:rgb(244, 171, 246);
+    box-shadow: 0 0 28px var(--color);
+    border-color: var(--color);
+    
+    }
+    
+.noa button{
+
+   
+    
+    letter-spacing: 1px;
+    transition: all 0.6s ease;
+    border-radius: 30px;
+    background:linear-gradient(150deg,#5dbbad,#605dc3,#9f51c6,#d7d961);
+}
+
+.noa{
+text-align: center;
+
+
+}
+.noa button:hover{
+
+    background-color:rgb(120, 120, 199);
+    box-shadow: 0 0 28px var(--color);
+    border-color: var(--color);
+
+}
